@@ -1,0 +1,3 @@
+!.storybook
+!.jest
+!src/styles/global.css
