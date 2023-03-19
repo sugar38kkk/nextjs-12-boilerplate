@@ -5,9 +5,9 @@ import { FC } from 'react'
 
 const Main: FC = () => {
   return (
-    <main className="relative h-screen overflow-x-hidden pt-12">
-      <div className="container max-w-7xl w-full mx-auto h-full flex flex-col items-center lg:justify-center text-center justify-start">
-        <div className="relative w-full h-full max-h-14 max-w-xl lg:max-w-3xl mb-8">
+    <main className="relative h-screen pt-12 overflow-x-hidden">
+      <div className="container flex flex-col items-center justify-start w-full h-full mx-auto text-center max-w-7xl lg:justify-center">
+        <div className="relative w-full h-full max-w-xl mb-8 max-h-14 lg:max-w-3xl">
           <Image
             className="img-shadow "
             priority
@@ -19,11 +19,11 @@ const Main: FC = () => {
           />
         </div>
         <LargeHeading>React Advanced</LargeHeading>
-        <Paragraph>
+        <Paragraph className="text-center">
           Typescript, ReactJs, NextJs, Tailwindcss The library for web and
           native user interfaces
         </Paragraph>
-        <div className="relative mt-12 w-full max-w-sm h-60">
+        <div className="relative w-full max-w-sm mt-12 h-60">
           <Image
             priority
             className="img-shadow "
